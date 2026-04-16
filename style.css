@@ -1,0 +1,57 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+}
+
+/* Judul utama */
+h1 {
+    text-align: center;
+    color: white;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Subjudul */
+h2 {
+    color: #ffffff;
+    background: #6c5ce7;
+    padding: 8px 12px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+/* Container tiap bagian */
+.section {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    transition: transform 0.2s;
+}
+
+.section:hover {
+    transform: scale(1.02);
+}
+
+/* List */
+ul li, ol li {
+    margin: 8px 0;
+}
+
+/* Gambar */
+img {
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 3px solid #6c5ce7;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Paragraf */
+p {
+    color: #2d3436;
+}
